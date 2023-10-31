@@ -1,0 +1,18 @@
+h1 {
+  animation: color 2s infinite linear;
+  font-family: arial;
+}
+
+@keyframes color {
+  0% {
+    color: blue;
+  }
+
+  50% {
+    color: cyan;
+  }
+
+  100% {
+    color: blue;
+  }
+}
